@@ -1,10 +1,11 @@
 {
-  "name": "sqltoxlsx",
+  "name": "runSql",
   "version": "1.0.0",
   "description": "This package usefull for export data by writing sql",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4",
     "xlsx": "^0.18.5"
   }
 }
